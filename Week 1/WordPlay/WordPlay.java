@@ -47,15 +47,18 @@ public class WordPlay {
      * '*' if it is in an even number location in the string
      */
     public String emphasize(String phrase, char ch) {
-       StringBuilder newPhrase = new StringBuilder(phrase);
+        StringBuilder newPhrase = new StringBuilder(phrase);
+        
         for(int i = 0, n = phrase.length(); i < n; i++) {
             char currentChar = newPhrase.charAt(i);
             int currCharIndex = phrase.indexOf(currentChar, i);
             
+            // If currentChar is in odd position change it to +
             if(Character.toLowerCase(currentChar) == Character.toLowerCase(ch) && (currCharIndex+1) % 2 == 0) {    
                 newPhrase.setCharAt(currCharIndex, '+');
             }
             
+            // If currentChar is in even position change it to *
             if(Character.toLowerCase(currentChar) == Character.toLowerCase(ch) && (currCharIndex+1) % 2 != 0) {
                 newPhrase.setCharAt(currCharIndex, '*');
             }

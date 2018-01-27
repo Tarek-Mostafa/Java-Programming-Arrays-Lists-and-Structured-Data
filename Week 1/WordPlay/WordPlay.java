@@ -1,6 +1,6 @@
 
 /**
- * a program to transform words from a file into another form, 
+ * A program to transform words from a file into another form, 
  * as replacing vowels with an asterix.
  * 
  * @author (Tarek Mostafa) 
@@ -10,8 +10,9 @@ import edu.duke.*;
 
 public class WordPlay {
     /**
-     * This method returns true if ch is a vowel (one of 'a', 'e', 'i', 'o', or 'u' 
-     * or the uppercase versions) and false otherwise. 
+     * This method returns true if @parameter ch is a vowel 
+     * (one of 'a', 'e', 'i', 'o', or 'u' or the uppercase versions) 
+     * and return false otherwise. 
      */
     public boolean isVowel(char ch) {
         ch = Character.toLowerCase(ch);
@@ -24,7 +25,7 @@ public class WordPlay {
     
     /**
      * This method should return a String that is the string phrase 
-     * with all the vowels (uppercase or lowercase) replaced by ch. 
+     * with all the vowels (uppercase or lowercase) replaced by @parameter ch. 
      */
     public String replaceVowels(String phrase, char ch) {
         StringBuilder newPhrase = new StringBuilder(phrase);
@@ -63,21 +64,15 @@ public class WordPlay {
     }
     
     public void testIsVowel() {
-        char ch = 'e';
-        System.out.println(isVowel(ch));
+        System.out.println(isVowel('e')); // true
     }
     
     public void testReplaceVowels() {
-        String phrase = "Hello World";
-        String replaced = replaceVowels(phrase, '*');
-        System.out.println(replaced);
+        System.out.println(replaceVowels("Hello World", '*')); // H*ll* W*rld
     }
 
     public void testEmphasize() {
-        String phrase = "dna ctgaaactga";
-        String phrase2 = "Mary Bella Abracadabra";
-
-        System.out.println(emphasize(phrase, 'a'));
-        System.out.println(emphasize(phrase2, 'a'));
+        System.out.println(emphasize("dna ctgaaactga", 'a')); // dn* ctg+*+ctg+
+        System.out.println(emphasize("Mary Bella Abracadabra", 'a')); // M+ry Bell+ +br*c*d*br+
     }
 }

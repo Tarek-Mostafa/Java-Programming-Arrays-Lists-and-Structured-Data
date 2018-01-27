@@ -1,5 +1,4 @@
 # Java Programming Arrays Lists and Structured Data
-My solutions to code problems in Java Programming: Arrays, Lists, and Structured Data at Duke University offered by Coursera.org
 
 This course is offered at <a href="https://www.coursera.org">Coursera</a> and is part of the <a href="https://www.coursera.org/specializations/java-programming">Java Programming and Software Engineering Fundamentals</a>.
 

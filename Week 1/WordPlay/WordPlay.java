@@ -63,6 +63,7 @@ public class WordPlay {
         return newPhrase.toString();
     }
     
+    // Begin testing methods
     public void testIsVowel() {
         System.out.println(isVowel('e')); // true
     }

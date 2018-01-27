@@ -1,2 +1,14 @@
 #BlueJ class context
-numComments=0
+comment0.params=ch
+comment0.target=boolean\ isVowel(char)
+comment0.text=\r\n\ This\ method\ returns\ true\ if\ ch\ is\ a\ vowel\ (one\ of\ 'a',\ 'e',\ 'i',\ 'o',\ or\ 'u'\ \r\n\ or\ the\ uppercase\ versions)\ and\ false\ otherwise.\ \r\n
+comment1.params=phrase\ ch
+comment1.target=java.lang.String\ replaceVowels(java.lang.String,\ char)
+comment1.text=\r\n\ This\ method\ should\ return\ a\ String\ that\ is\ the\ string\ phrase\ \r\n\ with\ all\ the\ vowels\ (uppercase\ or\ lowercase)\ replaced\ by\ ch.\ \r\n
+comment2.params=phrase\ ch
+comment2.target=java.lang.String\ emphasize(java.lang.String,\ char)
+comment3.params=
+comment3.target=void\ testIsVowel()
+comment4.params=
+comment4.target=void\ testReplaceVowels()
+numComments=5

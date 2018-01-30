@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=input\ key
+comment0.target=java.lang.String\ encrypt(java.lang.String,\ int)
+comment0.text=\r\n\ This\ method\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ \r\n\ the\ Caesar\ Cipher\ algorithm\ explained\ in\ the\ videos.\ Assume\ \r\n\ that\ all\ the\ alphabetic\ characters\ are\ uppercase\ letters.\r\n
+comment1.params=
+comment1.target=void\ testEncrypted()
+numComments=2

@@ -2,6 +2,14 @@
 comment0.params=input\ key
 comment0.target=java.lang.String\ encrypt(java.lang.String,\ int)
 comment0.text=\r\n\ This\ method\ returns\ a\ String\ that\ has\ been\ encrypted\ using\ \r\n\ the\ Caesar\ Cipher\ algorithm\ explained\ in\ the\ videos.\ Assume\ \r\n\ that\ all\ the\ alphabetic\ characters\ are\ uppercase\ letters.\r\n
-comment1.params=
-comment1.target=void\ testEncrypted()
-numComments=2
+comment1.params=input\ key
+comment1.target=char\ encryptChar(char,\ int)
+comment2.params=input\ key1\ key2
+comment2.target=java.lang.String\ encryptTwoKeys(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=void\ testEncrypted()
+comment4.params=
+comment4.target=void\ testEncryptChar()
+comment5.params=
+comment5.target=void\ testTwoKey()
+numComments=6

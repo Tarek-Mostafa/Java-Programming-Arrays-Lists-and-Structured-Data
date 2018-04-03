@@ -98,7 +98,7 @@ public class CaesarCipher {
 	public void testEncrypted() {
 		FileResource fr = new FileResource();
 		String message = fr.asString();
-		String encrypted = encrypt("First Legion", 17);
+		String encrypted = encrypt("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 15);
 		System.out.println(encrypted);
 	}
 
@@ -108,7 +108,7 @@ public class CaesarCipher {
 	}
 
 	public void testTwoKey() {
-		String encrypted = encryptTwoKeys("First Legion", 23, 17);
+		String encrypted = encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 8, 21);
 		System.out.println(encrypted);
 	}
 }
